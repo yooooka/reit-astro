@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* ===========================================================
+
+	Title: strategy.css
+	Created: 2017-12-13
+
+=========================================================== */
+/*
+
+	strategy
+	concept
+	financial
+
+
+=========================================================== */
+/* ===========================================================
+
+	strategy
+
+=========================================================== */
+.strategy-list li {
+	font-weight: bold;
+	font-size: 15px;
+	font-size: 1.5rem;
+	padding: 5px 0 5px 30px;
+	position: relative;
+}
+.strategy-list li:before {
+	position: absolute;
+	left: 0;
+	top: 5px;
+	content: "";
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 20px;
+	border: solid 5px #3EAAE1;
+}
+@media screen and (max-width: 1200px) {
+}
+
+/* ===========================================================
+
+	concept
+
+=========================================================== */
+.strategy-hub {
+	display: flex;
+	justify-content: space-between;
+}
+.strategy-hub dl {
+	width: 32%;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.4);
+	border-radius: 5px;
+	padding: 20px;
+}
+.strategy-hub dt {
+	margin: 0 0 10px;
+}
+.strategy-hub dt a {
+	font-size: 16px;
+	font-size: 1.6rem;
+	font-weight: bold;
+	text-align: center;
+	padding: 15px;
+	display: block;
+	background-color: rgba(60,47,93,0.10);
+	color: #3C2F5D;
+}
+.strategy-hub dt a:hover {
+	text-decoration: none;
+	background-color: rgba(60,47,93,0.95);
+	color: #fff;
+}
+.strategy-hub dt a:before {
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	margin: -2px 7px 0 0;
+	width: 6px;
+	height: 6px;
+	border-top: 2px solid #3C2F5D;
+	border-right: 2px solid #3C2F5D;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.strategy-hub dt a:hover:before {
+	border-top: 2px solid #fff;
+	border-right: 2px solid #fff;
+}
+.strategy-hub dd {
+	background-color: #f0f0f0;
+	padding: 10px 10px 10px 25px;
+	margin: 0 0 10px;
+	position: relative;
+	font-size: 13px;
+	font-size: 1.3rem;
+}
+.strategy-hub dd:last-child {
+	margin-bottom: 0;
+}
+.strategy-hub dd:before {
+	position: absolute;
+	left: 10px;
+	top: 17px;
+	content: "";
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	border-radius: 8px;
+	background-color: #a4006e;
+}
+@media screen and (max-width: 768px) {
+	.strategy-hub {
+		display: block;
+	}
+	.strategy-hub dl {
+		width: 100%;
+	}
+}
+
+/* ===========================================================
+
+	financial
+
+=========================================================== */
+.financial-list {
+	margin-left: 30px;
+}
+.financial-list dt {
+	font-weight: bold;
+	font-size: 14px;
+	font-size: 1.4rem;
+	list-style: disc;
+	display: list-item;
+}
+.financial-list dd {
+	margin: 0 0 20px;
+}

@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* ===========================================================
+
+	Title:			popup.css
+	Created:			2015-07-03
+	Last Created:		2015-07-03
+	
+=========================================================== */
+/*
+
+	header
+	contens
+	main
+	footer
+	
+=========================================================== */
+/*
+
+	header
+	
+=========================================================== */
+.header {
+	position: relative;
+	width: 620px;
+	height: 70px;
+	margin: 0 auto;
+	text-align: left;
+	color: #111;
+}
+/* logo
+----------------------------------------------------------- */
+.header h1 {
+	position: absolute;
+	top: 8px;
+	left: 0px;
+	font-size: 11px;
+	line-height: 1;
+}
+/* code
+----------------------------------------------------------- */
+.header .code {
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-align: right;
+	height: 70px;
+	line-height: 70px;
+	font-size: 15px;
+	letter-spacing: 0.1em;
+	margin: 0;
+	font-weight: bold;
+}
+
+/* ===========================================================	
+
+	contents
+	
+=========================================================== */
+.contents {
+	width: 620px;
+	margin: 0 auto;
+	padding: 0 0 20px;
+	text-align: left;
+}
+
+/* ===========================================================	
+
+	main
+	
+=========================================================== */
+.main {
+	width: 620px;
+}
+
+/* text
+----------------------------------------------------------- */
+p,
+ul,
+ol,
+dl,
+.indent-table {
+	margin: 0 0 20px;
+}
+
+/* ===========================================================	
+
+	footer
+	
+=========================================================== */
+.footer {
+	width: 100%;
+	margin: 0 auto;
+	padding: 20px 0 20px;
+	text-align: center;
+	border-top: solid 1px #ddd;
+}
+.footer p {
+	float: none;
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-size: 10px;
+	line-height: 1;
+}

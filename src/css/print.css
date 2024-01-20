@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+/* ===========================================================
+
+	Title: pint.css
+	Created: 2012-3-23
+	Created: 2012-7-25
+	
+=========================================================== */
+/*
+
+	print
+	
+=========================================================== */
+
+
+@media print {
+
+* body {
+	/*zoom: 67%;*/
+}
+.container {
+	width: 900px;
+}
+#header,
+.support,
+#gnav-contents {
+	display: none;
+}
+.contents {
+	width: 900px;
+	float: none;
+}
+#pageTop {
+}
+
+}

@@ -1,0 +1,417 @@
+@charset "utf-8";
+/* ===========================================================
+
+	Title: ir.css
+	Created: 2017-11-30
+
+=========================================================== */
+/* ===========================================================
+
+	library
+  highlight
+	distribute
+	ir_glossary
+
+=========================================================== */
+/* ===========================================================
+
+	library
+
+=========================================================== */
+.library-table {
+}
+.library-table th {
+	vertical-align: middle;
+}
+.library-table td {
+	position: relative;
+	text-align: center;
+}
+.library-table td .icon-l {
+	display: block;
+	margin: 0 auto 5px;
+	text-decoration: none !important;
+	transition: .3s ease-in-out;
+}
+.library-table td  a:hover  {
+	text-decoration: none !important;
+}
+
+/* popup-open
+----------------------------------------------------------- */
+.library-table td .popup-open {
+	display: block;
+}
+.popup-open {
+	position: relative;
+	overflow: hidden;
+	max-width: 90px;
+	height: 25px;
+	line-height: 23px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 5px;
+	display: inline-block;
+	border: solid 1px #cccccc;
+	color: #111 !important;
+	font-size: 12px;
+	font-size: 1.2rem;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all .3s ease;
+}
+.popup-open:hover {
+	text-decoration: none;
+	border: solid 1px #3C2F5D;
+	color: #fff !important;
+	border-color: transparent;
+	background-color: #3C2F5D;
+}
+.popup-open:before {
+	position: absolute;
+	top: 50%;
+	left: 8px;
+	margin: -3px 0 0;
+	content: "";
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 3px 0 3px 4px;
+	border-color: transparent transparent transparent #aaa;
+}
+.popup-open:hover:before  {
+	border-color: transparent transparent transparent #fff;
+}
+
+/* popup-area
+----------------------------------------------------------- */
+.library-table td .popup-area {
+	display: none;
+	position: absolute;
+	top: -50px;
+  right: 0;
+	margin: 0 0 0 -150px;
+	z-index: 100;
+	padding: 20px 20px 5px;
+	width: 500px;
+	background: #fff;
+	border: solid 3px #ddd;
+}
+.popup-area p {
+	color: #111;
+	font-size: 14px;
+	font-size: 1.4rem;
+}
+.popup-area p {
+	margin-bottom: 10px;
+}
+.popup-area dl.dl-date dd {
+	padding: 1px 0 10px 5em;
+}
+
+/* popup-close
+----------------------------------------------------------- */
+.popup-close {
+	position: relative;
+	overflow: hidden;
+	height: 25px;
+	line-height: 23px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 20px 0 30px;
+	display: inline-block;
+	border: solid 1px #cccccc;
+	color: #111 !important;
+	font-size: 12px;
+	font-size: 1.2rem;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all .3s ease;
+	cursor: pointer;
+}
+.popup-close:hover {
+	text-decoration: none;
+	color: #fff !important;
+	border-color: transparent;
+	background-color: #3C2F5D;
+}
+.popup-close:before,
+.popup-close:after {
+	position: absolute;
+	top: 50%;
+	left: 15px;
+	margin: -6px 0 0;
+	content: "";
+	width: 1px;
+	height: 12px;
+	background-color: #999;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(-45deg);
+}
+.popup-close:before {
+	-webkit-transform: rotate(45deg);
+	transform: rotate(-45deg);
+}
+.popup-close:after {
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(45deg);
+}
+.popup-close:hover:before,
+.popup-close:hover:after {
+	background-color: #fff;
+}
+
+/* ul-list
+----------------------------------------------------------- */
+ul.ul-list {
+	margin-bottom: 15px!important;
+	clear: both;
+}
+ul.ul-list li {
+	border-bottom: dotted 1px #ddd;
+	margin: 0 0 5px;
+	padding: 0 0 5px;
+}
+
+ul.ul-list li a {
+	padding: 0 0 0 7px;
+}
+ul.ul-list li a:link,
+ul.ul-list li a:visited {
+	text-decoration: none;
+	color: #333333;
+}
+ul.ul-list li a:hover {
+	color: #0a259b;
+}
+ul.ul-list li img {
+	margin: 0 0 0 7px;
+	vertical-align: text-bottom;
+}
+
+ul.revied {
+  padding-left: 30px !important;
+}
+@media screen and (max-width: 1200px) {
+	ul.revied span.date {
+		clear: both;
+		display: block;
+	}
+}
+/* ===========================================================
+
+	highlight
+
+=========================================================== */
+#lean_overlay {
+	position: fixed;
+	z-index:100;
+	top: 0px;
+	left: 0px;
+	height:100%;
+	width:100%;
+	background: #000;
+	display: none;
+  z-index: 999998;
+}
+
+#highlight1_all,
+#highlight2_all,
+#highlight3_all,
+#highlight4_all,
+#highlight5_all,
+#highlight6_all,
+#occupy_graph,
+#age_build,
+#profit_loss,
+#pal_all,
+#age_all,
+#data1_list,
+#data1_all,
+#assets_all {
+	background: none repeat scroll 0 0 #FFFFFF;
+/*	border-radius: 5px 5px 5px 5px;	*/
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.7);
+	display: none;
+	padding: 30px;
+	width: 1040px;
+	height: 450px;
+}
+
+#lightwindow1,
+#lightwindow2 {
+	display: none;
+	padding: 30px;
+	width: 390px;
+	height: 200px;
+	opacity: 0.6;
+	z-index: 10;
+}
+
+.window_content {
+	background: none repeat scroll 0 0 #FFFFFF;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.7);
+	width: 390px;
+	height: 110px;
+	overflow: hidden;
+	z-index: 0;
+	position: relative;
+	border: 10px solid #e8e8e8;
+	background-color: #FFF;
+	padding: 10px 0 0;
+}
+
+.modal_close {
+	position: absolute;
+	top: -15px;
+	right: -15px;
+	display: block;
+	height: 40px;
+	width: 40px;
+	z-index: 10;
+	background-color: #4d4070;
+	text-indent: 9999px;
+	white-space: nowrap;
+}
+.modal_close:hover {
+	background-color: #A4006E;
+}
+.modal_close:before,
+.modal_close:after {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  top: 47%;
+  left: 15%;
+  width: 70%;
+  height: 6%;
+  content: "";
+  background-color: #FFF;
+  transition: all 0.8s ease-in-out;
+}
+.modal_close:before {
+  transform: rotate(-315deg);
+}
+.modal_close:after {
+  transform: rotate(315deg);
+}
+
+/* ===========================================================
+
+	distribute
+
+=========================================================== */
+dl.distribute-actual, dl.distribute-forecast {
+	border-style: solid;
+	border-width: 1px;
+	margin: 0 100px 20px;
+	padding: 30px 30px 20px;
+	background-color: #fff;
+}
+dl.distribute-actual:after, dl.distribute-forecast:after {
+    content:" ";
+    display:block;
+    clear:both;
+}
+dl.distribute-actual dt, dl.distribute-forecast dt {
+	margin: 0;
+	padding: 0;
+	float: left;
+	line-height: 20px;
+	height: 20px;
+  font-size: 16px;
+  font-size: 1.6rem;
+}
+dl.distribute-actual dd, dl.distribute-forecast dd {
+	margin: 0;
+	padding: 0;
+	float: right;
+	line-height: 10px;
+	height: 10px;
+}
+dl.distribute-actual dd em,dl.distribute-forecast dd em {
+	margin: 0 5px 0 10px;
+	font-weight: normal;
+	font-size: 30px;
+	font-size: 3.0rem;	
+}
+dl.distribute-actual {
+	border-color: #A4006E;
+}
+dl.distribute-actual,
+dl.distribute-actual em {
+	color: #A4006E;
+}
+dl.distribute-forecast {
+	border-color: #3C2F5D;
+}
+dl.distribute-forecast ,
+dl.distribute-forecast  em {
+	color: #3C2F5D;
+}
+
+@media screen and (max-width: 1024px) {
+	dl.distribute-actual, dl.distribute-forecast {
+		margin: 0 0 20px;
+		padding: 20px 10px 15px;
+		text-align: center;
+	}
+	dl.distribute-actual dt, dl.distribute-forecast dt {
+		float: none;
+		line-height: 1.4;
+		height: inherit;
+	}
+	dl.distribute-actual dd, dl.distribute-forecast dd {
+		float: none;
+		line-height: 1.4;
+		height: inherit;
+	}
+}
+
+
+/* ===========================================================
+
+	ir_glossary
+
+=========================================================== */
+.ir_glossary h3 {
+	clear: both;
+}
+.ir_glossary dl {
+	margin: 0 0 20px;
+}
+.ir_glossary dt {
+	clear: both;
+	float: left;
+	margin: 0 0 20px;
+	width: 180px;
+	font-weight: bold;
+	font-size: 14px;
+}
+.ir_glossary dd {
+	margin: 0 0 20px 200px;
+	padding: 0 0 0 20px;
+	border-left: dotted 1px #ccc;
+}
+.ir_glossary {
+}
+.ir_glossary {
+}
+.ir_glossary dl.glossary_description dd a {
+	margin: 10px 0 0;
+	display: block;
+}
+@media screen and (max-width: 1024px) {
+.ir_glossary dt {
+	float: none;
+    margin: 0 0 5px;
+}
+.ir_glossary dd {
+	margin: 0 0 20px;
+    padding: 10px 0 0;
+    border-top: dotted 1px #ccc;
+    border-left: none;
+}
+}

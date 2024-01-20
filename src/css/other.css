@@ -1,0 +1,175 @@
+@charset "utf-8";
+/* ===========================================================
+
+	Title: other.css
+	Created: 2017-11-7
+
+=========================================================== */
+/*
+
+
+	link
+	sitemap
+	gossary
+		
+
+=========================================================== */
+/* ===========================================================
+
+	link
+
+=========================================================== */
+/* link-list
+----------------------------------------------------------- */
+.link-list {
+}
+.link-list ul {
+}
+.link-list ul li {
+	background: url(../img/common/ic/ic_blank_a.png) 0 50% no-repeat;
+	background-size: 9px auto;
+	border-bottom: dotted 1px #ddd;
+	margin: 0;
+	padding: 5px 0 5px 20px;
+}
+.link-list ul li a {
+	display: block;
+}
+.link-list ul li a:link, .link-list ul li a:visited {
+}
+.link-list ul li a:hover {
+}
+.link-list ul li img {
+	margin: 0 0 0 5px;
+	vertical-align: text-bottom;
+}
+/* ===========================================================
+
+	sitemap
+
+=========================================================== */
+.sitemap {
+	width: 410px;
+}
+.sitemap h2 {
+}
+.sitemap h2 a:link, .sitemap h2 a:visited {
+	display: block;
+}
+.sitemap h2 a:hover {
+	text-decoration: none;
+	color: #605483;
+	opacity: 0.5;
+}
+.sitemap ul {
+	margin-bottom: 40px;
+}
+.sitemap li {
+	margin: 0 0 2px 0;
+}
+.sitemap li a {
+	padding: 0 0 0 18px;
+	display: block;
+	position:relative;
+}
+.sitemap li a:before {
+	position: absolute;
+	top: 8px;
+	left: 5px;
+	content: "";
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 3px 0 3px 5px;
+	border-color: transparent transparent transparent #605483;
+}
+.sitemap a:link, .sitemap a:visited {
+	text-decoration: none;
+	color: #111;
+}
+.sitemap a:hover {
+	text-decoration: none;
+	color: #605483;
+	opacity: 0.5;
+}
+/* blank
+----------------------------------------------------------- */
+.sitemap li a.blank:before {
+	display: none;
+}
+.sitemap li a.blank {
+	background-position: 0 50% !important;
+	padding: 0 0 0 15px !important;
+}
+/* secondary
+----------------------------------------------------------- */
+.sitemap li ul {
+	margin: 0 0 10px 15px;
+}
+.sitemap li ul li {
+	font-size: 12px;
+	font-size: 1.2rem;
+}
+.sitemap li ul li a:before {
+	position: absolute;
+	top: 10px;
+	left: 3px;
+	content: "";
+	border: none;
+	width: 6px;
+	height: 1px;
+	background-color: #605483;
+}
+.sitemap li ul li a:after {
+	position: absolute;
+	content: "";
+	vertical-align: middle;
+	top: 8px;
+	left: 4px;
+	width: 5px;
+	height: 5px;
+	border-top: 1px solid #605483;
+	border-right: 1px solid #605483;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+@media screen and (max-width: 1200px) {
+	.sitemap {
+		clear: both;
+		float: none !important;
+		width: auto !important;
+	}
+}
+/* ===========================================================
+
+	gossary
+
+=========================================================== */
+/* gossary-list
+----------------------------------------------------------- */
+.gossary-list h2 {
+	position: relative;
+	border: solid 1px #ccc;
+	border-left: solid 3px #605483;
+	padding: 3px 15px;
+}
+/*.gossary-list h2:before {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	content: "";
+	width: 50px;
+	height: 2px;
+	background-color: #605483;
+}*/
+.gossary-list dt {
+	color: #605483;
+	font-size: 18px;
+	font-size: 1.8rem;
+}
+.gossary-list dd {
+	padding: 10px 0 10px 30px;
+	margin: 0 0 10px;
+	border-bottom: solid 1px #ccc;
+}
