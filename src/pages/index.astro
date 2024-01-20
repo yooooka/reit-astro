@@ -1,17 +1,15 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import '../base.css'
+import Layout from "../layouts/Layout.astro";
+import Aside from "../components/Aside.astro";
+import "../base.css";
 ---
 
 <Layout title="Welcome to Astro.">
-	<main>
-		<h1>なんとか投資法人</h1>
-		<p class="instructions">
-			To get started, open the directory <code>src/pages</code> in your project.<br />
-			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
-		</p>
-	</main>
+  <main class="prose mx-auto">
+    <h1>投資法人用ライブラリー</h1>
+    <p>むかしむかし大舘くんがつくったよ</p>
+    <Aside />
+  </main>
 </Layout>
 
-<style>
-</style>
+<style></style>
