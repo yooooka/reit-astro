@@ -1,0 +1,37 @@
+---
+import LibraryLayout from "@layouts/LibraryLayout.astro";
+import Aside from "@components/Aside.astro";
+// import { CollectionEntry } from "astro:content";
+// interface Props {
+//   html: CollectionEntry<"library">;
+// }
+
+export async function getStaticPaths() {
+  const pages = [
+    {
+      slug: "about",
+      title: "Astroストア",
+    },
+    {
+      slug: "contents",
+      title: "Astroグッズ",
+    },
+    {
+      slug: "color",
+      title: "究極のAstroハンドブック",
+    },
+  ];
+  return pages.map(({ slug, title }) => {
+    return {
+      params: { slug },
+      props: { title },
+    };
+  });
+}
+const { title } = Astro.props;
+---
+
+<LibraryLayout>
+  {title}
+  <Aside />
+</LibraryLayout>
