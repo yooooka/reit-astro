@@ -1,0 +1,124 @@
+---
+layout: "@layouts/LibraryLayout.astro"
+---
+
+<html class="no-js" lang="ja">
+  <head>
+    <!--#include virtual="/ja/include/analytics.txt" -->
+    <meta charset="utf-8" />
+    <title>モジュール一覧｜●●●リート投資法人</title>
+    <!--#include virtual="/ja/include/meta.txt" -->
+    <!--#include virtual="/ja/include/ogp.txt" -->
+    <link
+      rel="shortcut icon"
+      href="/favicon.ico"
+      type="image/vnd.microsoft.icon"
+    />
+    <link rel="icon" href="/favicon.ico" type="image/vnd.microsoft.icon" />
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/common.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/contents.css" />
+    <link rel="stylesheet" href="/css/print.css" media="print" />
+    <script src="/js/jquery.js"></script>
+    <script src="/js/jquery-ui.min.js"></script>
+    <script src="/js/modernizr.js"></script>
+    <script src="/js/jquery.slicknav.js"></script>
+    <script src="/js/function.js"></script>
+    <script src="/js/common.js"></script>
+    <!--[if lt IE 9]>
+      <script src="/js/html5.js"></script>
+    <![endif]-->
+    <!--module setting-->
+    <link rel="stylesheet" href="/css/module.css" />
+    <script src="/js/module.js"></script>
+    <link
+      rel="stylesheet"
+      href="/highlight/styles/tomorrow-night-eighties.css"
+    />
+    <script src="/highlight/highlight.pack.js"></script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
+    <!--module setting end-->
+  </head>
+
+  <body>
+    <!--#include virtual="/ja/include/header.txt" -->
+    <div class="topic-path">
+      <section>
+        <ol>
+          <li><a href="/">モジュール一覧</a></li>
+          <li>カラーコード</li>
+        </ol>
+      </section>
+    </div>
+    <!--topic-path-->
+    <div class="contents">
+      <main>
+        <article>
+          <div class="title">
+            <h1>Module list <span>モジュール一覧 : カラーコード</span></h1>
+          </div>
+          <!--title-->
+          <div class="module">
+            <p class="module__title">キーカラー</p>
+            <table summary="カラーコード" class="color-code">
+              <tbody>
+                <tr>
+                  <th scope="row" style="background-color: #605483">#605483</th>
+                  <td>キーカラー1</td>
+                  <th style="background-color: #605483" scope="row">#605483</th>
+                  <td>キーカラー2</td>
+                </tr>
+              </tbody>
+            </table>
+            <p class="module__title">物件タイプ</p>
+            <table summary="カラーコード" class="color-code">
+              <tbody>
+                <tr>
+                  <th style="background-color: #605483" scope="row">#605483</th>
+                  <td>物件タイプ1</td>
+                </tr>
+                <tr>
+                  <th style="background-color: #1161b6" scope="row">#1161b6</th>
+                  <td>物件タイプ2</td>
+                </tr>
+                <tr>
+                  <th style="background-color: #f6ab00" scope="row">#f6ab00</th>
+                  <td>物件タイプ3</td>
+                </tr>
+              </tbody>
+            </table>
+            <p class="module__title">グラフ</p>
+            <table summary="カラーコード" class="color-code">
+              <tbody>
+                <tr>
+                  <th style="background-color: #b77da9" scope="row">#b77da9</th>
+                  <td>グラフカラー1</td>
+                  <th style="background-color: #c9a3c3" scope="row">#c9a3c3</th>
+                  <td>グラフカラー2</td>
+                </tr>
+                <tr>
+                  <th style="background-color: #eec5b1" scope="row">#eec5b1</th>
+                  <td>グラフカラー3</td>
+                  <th style="background-color: #6caba0" scope="row">#6caba0</th>
+                  <td>グラフカラー4</td>
+                </tr>
+                <tr>
+                  <th style="background-color: #99bfb9" scope="row">#99bfb9</th>
+                  <td>グラフカラー5</td>
+                  <th style="background-color: #9bbed6" scope="row">#9bbed6</th>
+                  <td>グラフカラー6</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!--module-->
+        </article>
+      </main>
+    </div>      
+    <!--contents-->
+    <!--#include virtual="/ja/include/footer.txt" -->
+  </body>
+</html>

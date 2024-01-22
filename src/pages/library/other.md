@@ -1,0 +1,190 @@
+---
+layout: "@layouts/LibraryLayout.astro"
+---
+
+<html class="no-js" lang="ja">
+  <head>
+    <!--#include virtual="/ja/include/analytics.txt" -->
+    <meta charset="utf-8" />
+    <title>モジュール一覧｜●●●リート投資法人</title>
+    <!--#include virtual="/ja/include/meta.txt" -->
+    <!--#include virtual="/ja/include/ogp.txt" -->
+    <link
+      rel="shortcut icon"
+      href="/favicon.ico"
+      type="image/vnd.microsoft.icon"
+    />
+    <link rel="icon" href="/favicon.ico" type="image/vnd.microsoft.icon" />
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/common.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/contents.css" />
+    <link rel="stylesheet" href="/css/print.css" media="print" />
+    <script src="/js/jquery.js"></script>
+    <script src="/js/jquery-ui.min.js"></script>
+    <script src="/js/modernizr.js"></script>
+    <script src="/js/jquery.slicknav.js"></script>
+    <script src="/js/function.js"></script>
+    <script src="/js/common.js"></script>
+    <!--[if lt IE 9]>
+      <script src="/js/html5.js"></script>
+    <![endif]-->
+    <!--module setting-->
+    <link rel="stylesheet" href="/css/module.css" />
+    <script src="/js/module.js"></script>
+    <link
+      rel="stylesheet"
+      href="/highlight/styles/tomorrow-night-eighties.css"
+    />
+    <script src="/highlight/highlight.pack.js"></script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
+    <!--module setting end-->
+    <link rel="stylesheet" href="/css/other.css" />
+  </head>
+
+  <body>
+    <!--#include virtual="/ja/include/header.txt" -->
+    <div class="topic-path">
+      <section>
+        <ol>
+          <li><a href="/">モジュール一覧</a></li>
+          <li>その他コンテンツ</li>
+        </ol>
+      </section>
+    </div>
+    <!--topic-path-->
+    <div class="contents">
+      <main>
+        <article>
+          <div class="title">
+            <h1>Module list <span>モジュール一覧 : その他コンテンツ</span></h1>
+          </div>
+          <!--title-->
+          <div class="module">
+            <p class="module__title">その他コンテンツ:基本設定</p>
+            <p>その他コンテンツ用のCSS</p>
+            <pre
+              class="clear-both"
+            ><code class="html">&lt;link rel=&quot;stylesheet&quot; href=&quot;"/css/other.css&quot;/&gt;</code></pre>
+            <p>
+              bodyに#otherを追加してグローバルナビゲーションをカレント表示に
+            </p>
+            <pre><code class="html">&lt;body id=&quot;other&quot;&gt;</code></pre>
+            <p class="module__title">リンク集</p>
+            <div class="link-list">
+              <section>
+                <h2>タイトル</h2>
+                <ul>
+                  <li>
+                    <a href="http://www.jpx.co.jp/" target="_blank"
+                      >東京証券取引所</a
+                    >
+                  </li>
+                  <li>
+                    <a href="http://www.toushin.or.jp/" target="_blank"
+                      >一般社団法人投資信託協会</a
+                    >
+                  </li>
+                  <li>
+                    <a href="http://www.fsa.go.jp/" target="_blank">金融庁</a>
+                  </li>
+                  <li>
+                    <a href="http://www.mlit.go.jp/" target="_blank"
+                      >国土交通省</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.fsa.go.jp/sesc/watch/index.html"
+                      target="_blank"
+                      >証券取引等監視委員会＜情報受付＞</a
+                    >
+                  </li>
+                </ul>
+              </section>
+              <section>
+                <h2>タイトル</h2>
+                <ul>
+                  <li><a href="#" target="_blank">リンク</a></li>
+                </ul>
+              </section>
+              <section>
+                <h2>タイトル</h2>
+                <ul>
+                  <li><a href="#" target="_blank">リンク</a></li>
+                </ul>
+              </section>
+            </div>
+            <!--link-list-->
+            <pre
+              class="clear-both"
+            ><code class="html">&lt;div class=&quot;link-list&quot;&gt;<br>          &lt;section&gt;<br>            &lt;h3&gt;タイトル&lt;/h3&gt;<br>            &lt;ul&gt;<br>              &lt;li&gt;&lt;a href=&quot;http://www.jpx.co.jp/&quot; target=&quot;_blank&quot;&gt;東京証券取引所&lt;/a&gt;&lt;/li&gt;<br>              &lt;li&gt;&lt;a href=&quot;http://www.toushin.or.jp/&quot; target=&quot;_blank&quot;&gt;一般社団法人投資信託協会&lt;/a&gt;&lt;/li&gt;<br>              &lt;li&gt;&lt;a href=&quot;http://www.fsa.go.jp/&quot; target=&quot;_blank&quot;&gt;金融庁&lt;/a&gt;&lt;/li&gt;<br>              &lt;li&gt;&lt;a href=&quot;http://www.mlit.go.jp/&quot; target=&quot;_blank&quot;&gt;国土交通省&lt;/a&gt;&lt;/li&gt;<br>              &lt;li&gt;&lt;a href=&quot;https://www.fsa.go.jp/sesc/watch/index.html&quot; target=&quot;_blank&quot;&gt;証券取引等監視委員会＜情報受付＞&lt;/a&gt;&lt;/li&gt;<br>            &lt;/ul&gt;<br>          &lt;/section&gt;<br>          &lt;section&gt;<br>            &lt;h3&gt;タイトル&lt;/h3&gt;<br>            &lt;ul&gt;<br>              &lt;li&gt;&lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;リンク&lt;/a&gt;&lt;/li&gt;<br>            &lt;/ul&gt;<br>          &lt;/section&gt;<br>          &lt;section&gt;<br>            &lt;h3&gt;タイトル&lt;/h3&gt;<br>            &lt;ul&gt;<br>              &lt;li&gt;&lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;リンク&lt;/a&gt;&lt;/li&gt;<br>            &lt;/ul&gt;<br>          &lt;/section&gt;<br>        &lt;/div&gt;<br>        &lt;!--link-list--&gt;</code></pre>
+            <p class="module__title">サイトマップ</p>
+            <div class="sitemap link-reverse float-left">
+              <section>
+                <h2><a href="/index.html">カテゴリタイトル</a></h2>
+                <ul>
+                  <li><a href="/index.html">リンク</a></li>
+                  <li>
+                    <a href="/index.html">リンク</a>
+                    <ul>
+                      <li><a href="/index.html">リンク</a></li>
+                      <li><a href="/index.html">リンク</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="/index.html">リンク</a></li>
+                  <li><a href="/index.html">リンク</a></li>
+                </ul>
+              </section>
+              <section>
+                <h2><a href="/index.html">カテゴリタイトル</a></h2>
+                <ul>
+                  <li><a href="/index.html">リンク</a></li>
+                  <li><a href="/index.html">リンク</a></li>
+                  <li><a href="/index.html">リンク</a></li>
+                  <li><a href="/index.html">リンク</a></li>
+                </ul>
+              </section>
+            </div>
+            <!--sitemap-->
+            <div class="sitemap link-reverse float-right">
+              <section>
+                <h2><a href="/index.html">カテゴリタイトル</a></h2>
+                <ul>
+                  <li><a href="/index.html">リンク</a></li>
+                  <li>
+                    <a href="/index.html">リンク</a>
+                    <ul>
+                      <li><a href="/index.html">リンク</a></li>
+                      <li><a href="/index.html">リンク</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="/index.html">リンク</a></li>
+                  <li><a href="/index.html">リンク</a></li>
+                </ul>
+              </section>
+              <section>
+                <h2><a href="/index.html">カテゴリタイトル</a></h2>
+                <ul>
+                  <li><a href="/index.html">リンク</a></li>
+                  <li><a href="/index.html">リンク</a></li>
+                  <li><a href="/index.html">リンク</a></li>
+                  <li><a href="/index.html">リンク</a></li>
+                </ul>
+              </section>
+            </div>
+            <!--sitemap-->
+            <pre
+              class="clear-both"
+            ><code class="html">&lt;div class=&quot;sitemap link-reverse float-left&quot;&gt;<br>          &lt;section&gt;<br>            &lt;h3&gt;&lt;a href=&quot;/index.html&quot;&gt;カテゴリタイトル&lt;/a&gt;&lt;/h3&gt;<br>            &lt;ul&gt;<br>              &lt;li&gt;&lt;a href=&quot;/index.html&quot;&gt;リンク&lt;/a&gt;&lt;/li&gt;<br>              &lt;li&gt;&lt;a href=&quot;/index.html&quot;&gt;リンク&lt;/a&gt;<br>                &lt;ul&gt;<br>                  &lt;li&gt;&lt;a href=&quot;/index.html&quot;&gt;リンク&lt;/a&gt;&lt;/li&gt;<br>                  &lt;li&gt;&lt;a href=&quot;/index.html&quot;&gt;リンク&lt;/a&gt;&lt;/li&gt;<br>                &lt;/ul&gt;<br>              &lt;/li&gt;<br>              &lt;li&gt;&lt;a href=&quot;/index.html&quot;&gt;リンク&lt;/a&gt;&lt;/li&gt;<br>              &lt;li&gt;&lt;a href=&quot;/index.html&quot;&gt;リンク&lt;/a&gt;&lt;/li&gt;<br>            &lt;/ul&gt;<br>          &lt;/section&gt;<br>          &lt;section&gt;<br>            &lt;h3&gt;&lt;a href=&quot;/index.html&quot;&gt;カテゴリタイトル&lt;/a&gt;&lt;/h3&gt;<br>            &lt;ul&gt;<br>              &lt;li&gt;&lt;a href=&quot;/index.html&quot;&gt;リンク&lt;/a&gt;&lt;/li&gt;<br>              &lt;li&gt;&lt;a href=&quot;/index.html&quot;&gt;リンク&lt;/a&gt;&lt;/li&gt;<br>              &lt;li&gt;&lt;a href=&quot;/index.html&quot;&gt;リンク&lt;/a&gt;&lt;/li&gt;<br>              &lt;li&gt;&lt;a href=&quot;/index.html&quot;&gt;リンク&lt;/a&gt;&lt;/li&gt;<br>            &lt;/ul&gt;<br>          &lt;/section&gt;<br>        &lt;/div&gt;<br>        &lt;!--sitemap--&gt;<br>        &lt;div class=&quot;sitemap link-reverse float-right&quot;&gt;<br>          &lt;section&gt;<br>            &lt;h3&gt;&lt;a href=&quot;/index.html&quot;&gt;カテゴリタイトル&lt;/a&gt;&lt;/h3&gt;<br>            &lt;ul&gt;<br>              &lt;li&gt;&lt;a href=&quot;/index.html&quot;&gt;リンク&lt;/a&gt;&lt;/li&gt;<br>              &lt;li&gt;&lt;a href=&quot;/index.html&quot;&gt;リンク&lt;/a&gt;<br>                &lt;ul&gt;<br>                  &lt;li&gt;&lt;a href=&quot;/index.html&quot;&gt;リンク&lt;/a&gt;&lt;/li&gt;<br>                  &lt;li&gt;&lt;a href=&quot;/index.html&quot;&gt;リンク&lt;/a&gt;&lt;/li&gt;<br>                &lt;/ul&gt;<br>              &lt;/li&gt;<br>              &lt;li&gt;&lt;a href=&quot;/index.html&quot;&gt;リンク&lt;/a&gt;&lt;/li&gt;<br>              &lt;li&gt;&lt;a href=&quot;/index.html&quot;&gt;リンク&lt;/a&gt;&lt;/li&gt;<br>            &lt;/ul&gt;<br>          &lt;/section&gt;<br>          &lt;section&gt;<br>            &lt;h3&gt;&lt;a href=&quot;/index.html&quot;&gt;カテゴリタイトル&lt;/a&gt;&lt;/h3&gt;<br>            &lt;ul&gt;<br>              &lt;li&gt;&lt;a href=&quot;/index.html&quot;&gt;リンク&lt;/a&gt;&lt;/li&gt;<br>              &lt;li&gt;&lt;a href=&quot;/index.html&quot;&gt;リンク&lt;/a&gt;&lt;/li&gt;<br>              &lt;li&gt;&lt;a href=&quot;/index.html&quot;&gt;リンク&lt;/a&gt;&lt;/li&gt;<br>              &lt;li&gt;&lt;a href=&quot;/index.html&quot;&gt;リンク&lt;/a&gt;&lt;/li&gt;<br>            &lt;/ul&gt;<br>          &lt;/section&gt;<br>        &lt;/div&gt;<br>        &lt;!--sitemap--&gt; </code></pre>
+          </div>
+          <!--module-->
+        </article>
+      </main>     
+    </div>    
+    <!--contents-->
+    <!--#include virtual="/ja/include/footer.txt" -->
+  </body>
+</html>

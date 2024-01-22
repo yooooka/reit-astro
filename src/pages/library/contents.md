@@ -1,0 +1,366 @@
+---
+layout: "@layouts/LibraryLayout.astro"
+---
+
+<html class="no-js" lang="ja">
+  <head>
+    <!--#include virtual="/ja/include/analytics.txt" -->
+    <meta charset="utf-8" />
+    <title>モジュール一覧｜●●●リート投資法人</title>
+    <!--#include virtual="/ja/include/meta.txt" -->
+    <!--#include virtual="/ja/include/ogp.txt" -->
+    <link
+      rel="shortcut icon"
+      href="/favicon.ico"
+      type="image/vnd.microsoft.icon"
+    />
+    <link rel="icon" href="/favicon.ico" type="image/vnd.microsoft.icon" />
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/common.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/contents.css" />
+    <link rel="stylesheet" href="/css/print.css" media="print" />
+    <script src="/js/jquery.js"></script>
+    <script src="/js/jquery-ui.min.js"></script>
+    <script src="/js/modernizr.js"></script>
+    <script src="/js/jquery.slicknav.js"></script>
+    <script src="/js/function.js"></script>
+    <script src="/js/common.js"></script>
+    <!--[if lt IE 9]>
+      <script src="/js/html5.js"></script>
+    <![endif]-->
+    <!--module setting-->
+    <link rel="stylesheet" href="/css/module.css" />
+    <script src="/js/module.js"></script>
+    <link
+      rel="stylesheet"
+      href="/highlight/styles/tomorrow-night-eighties.css"
+    />
+    <script src="/highlight/highlight.pack.js"></script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
+    <!--module setting end-->
+    <script type="text/javascript" src="/js/jquery.biggerlink.min.js"></script>
+    <script type="text/javascript" src="/js/heightLine.js"></script>
+    <script type="text/javascript">
+      $(function () {
+        $(".hub li").biggerlink();
+      });
+    </script>
+  </head>
+
+  <body>
+    <!--#include virtual="/ja/include/header.txt" -->
+    <div class="topic-path">
+      <section>
+        <ol>
+          <li><a href="/">モジュール一覧</a></li>
+          <li>コンテンツスタイル</li>
+        </ol>
+      </section>
+    </div>
+    <!--topic-path-->
+    <div class="contents">
+      <main>
+        <article>
+          <div class="title">
+            <h1><span>モジュール一覧 : コンテンツスタイル</span></h1>
+          </div>
+          <!--title-->
+          <div class="module">
+            <p class="module__title">アイコン</p>
+            <p>
+              <span class="icon ic-top-press1"> HP更新 </span>
+              <span class="icon ic-top-press2"> お知らせ </span>
+              <span class="icon ic-top-press3"> その他 </span>
+              <span class="icon ic-top-press10"> リリース </span>
+              <span class="icon ic-top-press11"> リリース </span>
+              <span class="icon ic-top-press12"> リリース </span>
+              <span class="icon ic-top-press13"> リリース </span>
+              <span class="icon ic-top-press14"> リリース </span>
+            </p>
+            <p>
+              <span class="icon ic-press10"> 物件 </span>
+              <span class="icon ic-press11"> 決算 </span>
+              <span class="icon ic-press12"> 借入 </span>
+              <span class="icon ic-press13"> 増資 </span>
+              <span class="icon ic-press14"> その他 </span>
+            </p>
+            <p class="margin-bottom-10">
+              <span class="icon-s ic-pdf-s">PDF</span>
+              <span class="icon-s ic-xls-s">XLS</span>
+              <span class="icon-s ic-zip-s">ZIP</span>
+            </p>
+            <p class="margin-bottom-10">
+              <span class="icon-l ic-pdf-l">PDF</span>
+              <span class="icon-l ic-xls-l">XLS</span>
+              <span class="icon-l ic-zip-l">ZIP</span>
+            </p>
+            <pre><code class="html">&lt;span class=&quot;icon ic-top-press1&quot;&gt;HP更新&lt;/span&gt;
+&lt;span class=&quot;icon ic-top-press2&quot;&gt; お知らせ &lt;/span&gt;
+&lt;span class=&quot;icon ic-top-press3&quot;&gt;その他&lt;/span&gt;
+&lt;span class=&quot;icon ic-top-press10&quot;&gt; リリース &lt;/span&gt;
+&lt;span class=&quot;icon ic-top-press11&quot;&gt; リリース &lt;/span&gt;
+&lt;span class=&quot;icon ic-top-press12&quot;&gt; リリース &lt;/span&gt; 
+&lt;span class=&quot;icon ic-top-press13&quot;&gt; リリース &lt;/span&gt; 
+&lt;span class=&quot;icon ic-top-press14&quot;&gt; リリース &lt;/span&gt; <br /><br />&lt;span class=&quot;icon ic-press10&quot;&gt; 物件 &lt;/span&gt;
+&lt;span class=&quot;icon ic-press11&quot;&gt; 決算 &lt;/span&gt;
+&lt;span class=&quot;icon ic-press12&quot;&gt; 借入 &lt;/span&gt;
+&lt;span class=&quot;icon ic-press13&quot;&gt; 増資 &lt;/span&gt;
+&lt;span class=&quot;icon ic-press14&quot;&gt;その他&lt;/span&gt;<br /><br />&lt;span class=&quot;icon-l ic-pdf-l&quot;&gt;PDF&lt;/span&gt;
+&lt;span class=&quot;icon-l ic-xls-l&quot;&gt;XLS&lt;/span&gt;
+&lt;span class=&quot;icon-l ic-zip-l&quot;&gt;ZIP&lt;/span&gt;<br /><br />&lt;span class=&quot;icon-l ic-pdf-l&quot;&gt;PDF&lt;/span&gt; <br />&lt;span class=&quot;icon-l ic-xls-l&quot;&gt;XLS&lt;/span&gt;<br />&lt;span class=&quot;icon-l ic-zip-l&quot;&gt;ZIP&lt;/span&gt;</code></pre>
+            <p class="module__title">ページ内リンク</p>
+            <ul class="ul-page-link clearfix">
+              <li><a href="#c1">リンク1</a></li>
+              <li><a href="#c2">リンク2</a></li>
+              <li><a href="#c3">リンク3</a></li>
+            </ul>
+            <ul class="ul-page-link-bottom clearfix">
+              <li><a href="#c1">リンク1</a></li>
+              <li><a href="#c2">リンク2</a></li>
+              <li><a href="#c3">リンク3</a></li>
+            </ul>
+            <pre><code class="html">&lt;ul class=&quot;ul-page-link clearfix&quot;&gt;<br />        &lt;li&gt;&lt;a href=&quot;#c1&quot;&gt;リンク1&lt;/a&gt;&lt;/li&gt;<br />        &lt;li&gt;&lt;a href=&quot;#c2&quot;&gt;リンク2&lt;/a&gt;&lt;/li&gt;<br />        &lt;li&gt;&lt;a href=&quot;#c3&quot;&gt;リンク3&lt;/a&gt;&lt;/li&gt;<br />      &lt;/ul&gt;<br />      &lt;ul class=&quot;ul-page-link-bottom clearfix&quot;&gt;<br />        &lt;li&gt;&lt;a href=&quot;#c1&quot;&gt;リンク1&lt;/a&gt;&lt;/li&gt;<br />        &lt;li&gt;&lt;a href=&quot;#c2&quot;&gt;リンク2&lt;/a&gt;&lt;/li&gt;<br />        &lt;li&gt;&lt;a href=&quot;#c3&quot;&gt;リンク3&lt;/a&gt;&lt;/li&gt;<br />      &lt;/ul&gt;</code></pre>
+            <p class="module__title">タブ</p>
+            <h2>プレーンタブ</h2>
+            <ul class="tab-a">
+              <li>
+                <a href="#"><span>タブ１</span></a>
+              </li>
+              <li>
+                <a href="#" class="active"><span>タブ２</span></a>
+              </li>
+              <li>
+                <a href="#"><span>タブ３</span></a>
+              </li>
+            </ul>
+            <pre><code class="html">&lt;ul class=&quot;tab-a&quot;&gt;<br />    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;span&gt;タブ１&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;<br />    &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;active&quot;&gt;&lt;span&gt;タブ２&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;<br />    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;span&gt;タブ３&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;<br />&lt;/ul&gt;</code></pre>
+            <h2>プレーンな切り替え機能</h2>
+            <ul class="tabs">
+              <li class="tab"><a href="#cont1" class="active">タブ１</a></li>
+              <li class="tab"><a href="#cont2">タブ２</a></li>
+              <li class="tab"><a href="#cont3">タブ３</a></li>
+            </ul>
+            <!--tabs-->
+            <div class="panels">
+              <div id="cont1" class="panel active">コンテンツ１</div>
+              <!--cont-->
+              <div id="cont2" class="panel">コンテンツ２</div>
+              <!--cont-->
+              <div id="cont3" class="panel">コンテンツ３</div>
+              <!--cont-->
+            </div>
+            <!--panels-->
+            <pre><code class="html">&lt;ul class=&quot;tabs&quot;&gt;<br />    &lt;li class=&quot;tab&quot;&gt;&lt;a href=&quot;#cont1&quot; class=&quot;active&quot;&gt;タブ１&lt;/a&gt;&lt;/li&gt;<br />    &lt;li class=&quot;tab&quot;&gt;&lt;a href=&quot;#cont2&quot;&gt;タブ２&lt;/a&gt;&lt;/li&gt;<br />    &lt;li class=&quot;tab&quot;&gt;&lt;a href=&quot;#cont3&quot;&gt;タブ３&lt;/a&gt;&lt;/li&gt;<br />&lt;/ul&gt;<br />&lt;!--tabs--&gt;<br />&lt;div class=&quot;panels&quot;&gt;<br />    &lt;div id=&quot;cont1&quot; class=&quot;panel active&quot;&gt;コンテンツ１&lt;/div&gt;<br />    &lt;!--cont--&gt;<br />    &lt;div id=&quot;cont2&quot; class=&quot;panel&quot;&gt;コンテンツ２&lt;/div&gt;<br />    &lt;!--cont--&gt;<br />    &lt;div id=&quot;cont3&quot; class=&quot;panel&quot;&gt;コンテンツ３&lt;/div&gt;<br />    &lt;!--cont--&gt; <br />&lt;/div&gt;<br />&lt;!--panels--&gt;</code></pre>
+            <h2>切り替えタブ</h2>
+            <ul class="tabs tab-a">
+              <li class="tab">
+                <a href="#cont4" class="active"><span>タブ１</span></a>
+              </li>
+              <li class="tab">
+                <a href="#cont5"><span>タブ２</span></a>
+              </li>
+              <li class="tab">
+                <a href="#cont6"><span>タブ３</span></a>
+              </li>
+            </ul>
+            <!--tabs-->
+            <div class="panels">
+              <div id="cont4" class="panel active">コンテンツ１</div>
+              <!--cont-->
+              <div id="cont5" class="panel">コンテンツ２</div>
+              <!--cont-->
+              <div id="cont6" class="panel">コンテンツ３</div>
+              <!--cont-->
+            </div>
+            <!--panels-->
+            <pre><code class="html">&lt;ul class=&quot;tabs tab-a&quot;&gt;<br />    &lt;li class=&quot;tab&quot;&gt;&lt;a href=&quot;#cont4&quot; class=&quot;active&quot;&gt;&lt;span&gt;タブ１&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;<br />    &lt;li class=&quot;tab&quot;&gt;&lt;a href=&quot;#cont5&quot;&gt;&lt;span&gt;タブ２&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;<br />    &lt;li class=&quot;tab&quot;&gt;&lt;a href=&quot;#cont6&quot;&gt;&lt;span&gt;タブ３&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;<br />&lt;/ul&gt;<br />&lt;!--tabs--&gt;<br />&lt;div class=&quot;panels&quot;&gt;<br />    &lt;div id=&quot;cont4&quot; class=&quot;panel active&quot;&gt;コンテンツ１&lt;/div&gt;<br />    &lt;!--cont--&gt;<br />    &lt;div id=&quot;cont5&quot; class=&quot;panel&quot;&gt;コンテンツ２&lt;/div&gt;<br />    &lt;!--cont--&gt;<br />    &lt;div id=&quot;cont6&quot; class=&quot;panel&quot;&gt;コンテンツ３&lt;/div&gt;<br />    &lt;!--cont--&gt; <br />&lt;/div&gt;<br />&lt;!--panels--&gt;</code></pre>
+            <p class="module__title">ページャー</p>
+            <ul class="ul-sort clearfix">
+              <li class="top-cate00">
+                <a href="/module/index.html">すべて</a>
+              </li>
+              <li class="top-cate01">
+                <a href="/module/index.html">HP更新</a>
+              </li>
+              <li class="top-cate02">
+                <a href="/module/index.html">お知らせ</a>
+              </li>
+              <li class="top-cate03"><a href="/module/index.html">決算</a></li>
+              <li class="top-cate04">
+                <a href="/module/index.html">その他</a>
+              </li>
+              <li class="top-cate10">
+                <a href="/module/index.html">リリース</a>
+              </li>
+              <li class="top-cate11">
+                <a href="/module/index.html">リリース</a>
+              </li>
+              <li class="top-cate12">
+                <a href="/module/index.html">リリース</a>
+              </li>
+              <li class="top-cate13">
+                <a href="/module/index.html">リリース</a>
+              </li>
+              <li class="top-cate14">
+                <a href="/module/index.html">リリース</a>
+              </li>
+              <li class="top-cate15">
+                <a href="/module/index.html">リリース</a>
+              </li>
+            </ul>
+            <ul class="ul-sort clearfix">
+              <li class="top-cate00">
+                <a href="/module/contents.html" class="current">すべて</a>
+              </li>
+              <li class="top-cate01">
+                <a href="/module/index.html" class="current">HP更新</a>
+              </li>
+              <li class="top-cate02">
+                <a href="/module/index.html" class="current">お知らせ</a>
+              </li>
+              <li class="top-cate03">
+                <a href="/module/index.html" class="current">決算</a>
+              </li>
+              <li class="top-cate04">
+                <a href="/module/index.html" class="current">その他</a>
+              </li>
+              <li class="top-cate10">
+                <a href="/module/contents.html" class="current">リリース</a>
+              </li>
+              <li class="top-cate11">
+                <a href="/module/contents.html" class="current">リリース</a>
+              </li>
+              <li class="top-cate12">
+                <a href="/module/contents.html" class="current">リリース</a>
+              </li>
+              <li class="top-cate13">
+                <a href="/module/contents.html" class="current">リリース</a>
+              </li>
+              <li class="top-cate14">
+                <a href="/module/contents.html" class="current">リリース</a>
+              </li>
+              <li class="top-cate15">
+                <a href="/module/contents.html" class="current">リリース</a>
+              </li>
+            </ul>
+            <ul class="ul-sort clearfix">
+              <li class="cate00"><a href="/module/index.html">すべて</a></li>
+              <li class="cate10"><a href="/module/index.html">物件</a></li>
+              <li class="cate11"><a href="/module/index.html">決算</a></li>
+              <li class="cate12"><a href="/module/index.html">借入</a></li>
+              <li class="cate13"><a href="/module/index.html">増資</a></li>
+              <li class="cate14"><a href="/module/index.html">その他</a></li>
+            </ul>
+            <ul class="ul-sort clearfix">
+              <li class="cate00">
+                <a href="/module/contents.html" class="current">すべて</a>
+              </li>
+              <li class="cate10">
+                <a href="/module/contents.html" class="current">物件</a>
+              </li>
+              <li class="cate11">
+                <a href="/module/contents.html" class="current">決算</a>
+              </li>
+              <li class="cate12">
+                <a href="/module/contents.html" class="current">借入</a>
+              </li>
+              <li class="cate13">
+                <a href="/module/contents.html" class="current">増資</a>
+              </li>
+              <li class="cate14">
+                <a href="/module/contents.html" class="current">その他</a>
+              </li>
+            </ul>
+            <pre><code class="html">&lt;ul class=&quot;ul-sort clearfix&quot;&gt;<br>  &lt;li class=&quot;top-cate00&quot;&gt;&lt;a href=&quot;/module/index.html&quot;&gt;すべて&lt;/a&gt;&lt;/li&gt;<br>  &lt;li class=&quot;top-cate01&quot;&gt;&lt;a href=&quot;/module/index.html&quot;&gt;HP更新&lt;/a&gt;&lt;/li&gt;<br>  &lt;li class=&quot;top-cate02&quot;&gt;&lt;a href=&quot;/module/index.html&quot;&gt;お知らせ&lt;/a&gt;&lt;/li&gt;<br>  &lt;li class=&quot;top-cate03&quot;&gt;&lt;a href=&quot;/module/index.html&quot;&gt;決算&lt;/a&gt;&lt;/li&gt;<br>  &lt;li class=&quot;top-cate04&quot;&gt;&lt;a href=&quot;/module/index.html&quot;&gt;その他&lt;/a&gt;&lt;/li&gt;<br>  &lt;li class=&quot;top-cate10&quot;&gt;&lt;a href=&quot;/module/index.html&quot;&gt;リリース&lt;/a&gt;&lt;/li&gt;<br>  &lt;li class=&quot;top-cate11&quot;&gt;&lt;a href=&quot;/module/index.html&quot;&gt;リリース&lt;/a&gt;&lt;/li&gt;<br>  &lt;li class=&quot;top-cate12&quot;&gt;&lt;a href=&quot;/module/index.html&quot;&gt;リリース&lt;/a&gt;&lt;/li&gt;<br>  &lt;li class=&quot;top-cate13&quot;&gt;&lt;a href=&quot;/module/index.html&quot;&gt;リリース&lt;/a&gt;&lt;/li&gt;<br>  &lt;li class=&quot;top-cate14&quot;&gt;&lt;a href=&quot;/module/index.html&quot;&gt;リリース&lt;/a&gt;&lt;/li&gt;<br>  &lt;li class=&quot;top-cate15&quot;&gt;&lt;a href=&quot;/module/index.html&quot;&gt;リリース&lt;/a&gt;&lt;/li&gt;<br>&lt;/ul&gt;<br>&lt;ul class=&quot;ul-sort clearfix&quot;&gt;<br>  &lt;li class=&quot;top-cate00&quot;&gt;&lt;a href=&quot;/module/contents.html&quot; class=&quot;current&quot;&gt;すべて&lt;/a&gt;&lt;/li&gt;<br>  &lt;li class=&quot;top-cate01&quot;&gt;&lt;a href=&quot;/module/index.html&quot; class=&quot;current&quot;&gt;HP更新&lt;/a&gt;&lt;/li&gt;<br>  &lt;li class=&quot;top-cate02&quot;&gt;&lt;a href=&quot;/module/index.html&quot; class=&quot;current&quot;&gt;お知らせ&lt;/a&gt;&lt;/li&gt;<br>  &lt;li class=&quot;top-cate03&quot;&gt;&lt;a href=&quot;/module/index.html&quot; class=&quot;current&quot;&gt;決算&lt;/a&gt;&lt;/li&gt;<br>  &lt;li class=&quot;top-cate04&quot;&gt;&lt;a href=&quot;/module/index.html&quot; class=&quot;current&quot;&gt;その他&lt;/a&gt;&lt;/li&gt;<br>  &lt;li class=&quot;top-cate10&quot;&gt;&lt;a href=&quot;/module/contents.html&quot; class=&quot;current&quot;&gt;リリース&lt;/a&gt;&lt;/li&gt;<br>  &lt;li class=&quot;top-cate11&quot;&gt;&lt;a href=&quot;/module/contents.html&quot; class=&quot;current&quot;&gt;リリース&lt;/a&gt;&lt;/li&gt;<br>  &lt;li class=&quot;top-cate12&quot;&gt;&lt;a href=&quot;/module/contents.html&quot; class=&quot;current&quot;&gt;リリース&lt;/a&gt;&lt;/li&gt;<br>  &lt;li class=&quot;top-cate13&quot;&gt;&lt;a href=&quot;/module/contents.html&quot; class=&quot;current&quot;&gt;リリース&lt;/a&gt;&lt;/li&gt;<br>  &lt;li class=&quot;top-cate14&quot;&gt;&lt;a href=&quot;/module/contents.html&quot; class=&quot;current&quot;&gt;リリース&lt;/a&gt;&lt;/li&gt;<br>  &lt;li class=&quot;top-cate15&quot;&gt;&lt;a href=&quot;/module/contents.html&quot; class=&quot;current&quot;&gt;リリース&lt;/a&gt;&lt;/li&gt;<br>&lt;/ul&gt;<br>&lt;ul class=&quot;ul-sort clearfix&quot;&gt;<br>  &lt;li class=&quot;cate00&quot;&gt;&lt;a href=&quot;/module/index.html&quot;&gt;すべて&lt;/a&gt;&lt;/li&gt;<br>  &lt;li class=&quot;cate10&quot;&gt;&lt;a href=&quot;/module/index.html&quot;&gt;物件&lt;/a&gt;&lt;/li&gt;<br>  &lt;li class=&quot;cate11&quot;&gt;&lt;a href=&quot;/module/index.html&quot;&gt;決算&lt;/a&gt;&lt;/li&gt;<br>  &lt;li class=&quot;cate12&quot;&gt;&lt;a href=&quot;/module/index.html&quot;&gt;借入&lt;/a&gt;&lt;/li&gt;<br>  &lt;li class=&quot;cate13&quot;&gt;&lt;a href=&quot;/module/index.html&quot;&gt;増資&lt;/a&gt;&lt;/li&gt;<br>  &lt;li class=&quot;cate14&quot;&gt;&lt;a href=&quot;/module/index.html&quot;&gt;その他&lt;/a&gt;&lt;/li&gt;<br>&lt;/ul&gt;<br>&lt;ul class=&quot;ul-sort clearfix&quot;&gt;<br>  &lt;li class=&quot;cate00&quot;&gt;&lt;a href=&quot;/module/contents.html&quot; class=&quot;current&quot;&gt;すべて&lt;/a&gt;&lt;/li&gt;<br>  &lt;li class=&quot;cate10&quot;&gt;&lt;a href=&quot;/module/contents.html&quot; class=&quot;current&quot;&gt;物件&lt;/a&gt;&lt;/li&gt;<br>  &lt;li class=&quot;cate11&quot;&gt;&lt;a href=&quot;/module/contents.html&quot; class=&quot;current&quot;&gt;決算&lt;/a&gt;&lt;/li&gt;<br>  &lt;li class=&quot;cate12&quot;&gt;&lt;a href=&quot;/module/contents.html&quot; class=&quot;current&quot;&gt;借入&lt;/a&gt;&lt;/li&gt;<br>  &lt;li class=&quot;cate13&quot;&gt;&lt;a href=&quot;/module/contents.html&quot; class=&quot;current&quot;&gt;増資&lt;/a&gt;&lt;/li&gt;<br>  &lt;li class=&quot;cate14&quot;&gt;&lt;a href=&quot;/module/contents.html&quot; class=&quot;current&quot;&gt;その他&lt;/a&gt;&lt;/li&gt;<br>&lt;/ul&gt;</code></pre>
+            <ul class="ul-backnumber clearfix">
+              <li>
+                <a href="/module/contents.html" class="current">2015年</a>
+              </li>
+              <li><a href="/module/index.html">2014年</a></li>
+              <li><a href="/module/index.html">2013年</a></li>
+              <li><a href="/module/index.html">2012年</a></li>
+              <li><a href="/module/index.html">2011年</a></li>
+            </ul>
+            <pre><code class="html">&lt;ul class=&quot;ul-backnumber clearfix&quot;&gt;<br />  &lt;li&gt;&lt;a href=&quot;/module/contents.html&quot; class=&quot;current&quot;&gt;2015年&lt;/a&gt;&lt;/li&gt;<br />  &lt;li&gt;&lt;a href=&quot;/module/index.html&quot;&gt;2014年&lt;/a&gt;&lt;/li&gt;<br />  &lt;li&gt;&lt;a href=&quot;/module/index.html&quot;&gt;2013年&lt;/a&gt;&lt;/li&gt;<br />  &lt;li&gt;&lt;a href=&quot;/module/index.html&quot;&gt;2012年&lt;/a&gt;&lt;/li&gt;<br />  &lt;li&gt;&lt;a href=&quot;/module/index.html&quot;&gt;2011年&lt;/a&gt;&lt;/li&gt;<br />&lt;/ul&gt;</code></pre>
+            <p class="module__title">リスト dl / ul</p>
+            <h2>リリース</h2>
+            <dl class="news">
+              <dt>0000年00月00日<span class="icon ic-press10"> 物件 </span></dt>
+              <dd cate="14">
+                <a href="#" target="_blank">リリースリリースリリースリリース</a>
+                <span class="icon-s ic-pdf-s"> PDF </span> （000KB）
+              </dd>
+            </dl>
+            <pre><code class="html">&lt;dl class=&quot;news&quot;&gt;<br />        &lt;dt&gt;0000年00月00日&lt;span class=&quot;icon ic-press10&quot;&gt; 物件 &lt;/span&gt;&lt;/dt&gt;<br />        &lt;dd cate=&quot;14&quot;&gt; &lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;リリースリリースリリースリリース&lt;/a&gt; &lt;span class=&quot;icon-s ic-pdf-s&quot;&gt; PDF &lt;/span&gt; （000KB） &lt;/dd&gt;<br />      &lt;/dl&gt;</code></pre>
+            <h2>日付付きリスト</h2>
+            <dl class="dl-date">
+              <dt>0000年00月00日</dt>
+              <dd>
+                <a href="#" target="_blank">リリースリリースリリースリリース</a>
+                <span class="icon-s ic-pdf-s"> PDF </span> （000KB）
+              </dd>
+              <dt class="revied">0000年00月00日</dt>
+              <dd class="revied">
+                <a href="#" target="_blank">リリースリリースリリースリリース</a>
+                <span class="icon-s ic-pdf-s"> PDF </span> （000KB）
+              </dd>
+            </dl>
+            <pre><code class="html">&lt;dl class=&quot;dl-date&quot;&gt;<br />        &lt;dt&gt;0000年00月00日&lt;/dt&gt;<br />        &lt;dd&gt; &lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;リリースリリースリリースリリース&lt;/a&gt; &lt;span class=&quot;icon-s ic-pdf-s&quot;&gt; PDF &lt;/span&gt; （000KB） &lt;/dd&gt;<br />        &lt;dt class=&quot;revied&quot;&gt;0000年00月00日&lt;/dt&gt;<br />        &lt;dd class=&quot;revied&quot;&gt; &lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;リリースリリースリリースリリース&lt;/a&gt; &lt;span class=&quot;icon-s ic-pdf-s&quot;&gt; PDF &lt;/span&gt; （000KB） &lt;/dd&gt;<br />      &lt;/dl&gt;</code></pre>
+            <h2>関連リンク</h2>
+            <dl class="dl-pertinent">
+              <dt>関連リンク</dt>
+              <dd><a href="#">リンク</a></dd>
+              <dd><a href="#">リンク</a></dd>
+              <dd><a href="#" class="blank">リンク</a></dd>
+            </dl>
+            <pre><code class="html">&lt;dl class=&quot;dl-pertinent&quot;&gt;<br />    &lt;dt&gt;関連リンク&lt;/dt&gt;<br />    &lt;dd&gt;&lt;a href=&quot;#&quot;&gt;リンク&lt;/a&gt;&lt;/dd&gt;<br />    &lt;dd&gt;&lt;a href=&quot;#&quot;&gt;リンク&lt;/a&gt;&lt;/dd&gt;<br />    &lt;dd&gt;&lt;a href=&quot;#&quot; class=&quot;blank&quot;&gt;リンク&lt;/a&gt;&lt;/dd&gt;<br />&lt;/dl&gt;</code></pre>
+            <p class="module__title">ハブページ</p>
+            <ul class="hub">
+              <li class="heightLine-hub1">
+                <dl>
+                  <dt><a href="/ja/about/message.html">タイトル</a></dt>
+                  <dd>説明文説明文説明文説明文説明文説明文説明文</dd>
+                </dl>
+              </li>
+              <li class="heightLine-hub1">
+                <dl>
+                  <dt><a href="/ja/about/message.html">タイトル</a></dt>
+                  <dd>
+                    説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文
+                  </dd>
+                </dl>
+              </li>
+              <li class="heightLine-hub2">
+                <dl>
+                  <dt><a href="/ja/about/message.html">タイトル</a></dt>
+                  <dd>説明文説明文説明文説明文説明文説明文説明文</dd>
+                </dl>
+              </li>
+              <li class="heightLine-hub2">
+                <dl>
+                  <dt><a href="/ja/about/message.html">タイトル</a></dt>
+                  <dd>
+                    説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文
+                  </dd>
+                </dl>
+              </li>
+            </ul>
+            <pre
+              class="clear-both margin-bottom-10"
+            ><code class="js">&lt;script type=&quot;text/javascript&quot; src=&quot;/js/heightLine.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;/js/jquery.biggerlink.min.js&quot;&gt;&lt;/script&gt;<br />&lt;script type=&quot;text/javascript&quot;&gt;  <br />    $(function(){  <br />        $('.hub li').biggerlink();  <br />    });  <br />&lt;/script&gt;</code></pre>
+            <pre
+              class="clear-both"
+            ><code class="html">&lt;ul class=&quot;hub&quot;&gt;<br />        &lt;li class=&quot;heightLine-hub1&quot;&gt;<br />          &lt;dl&gt;<br />            &lt;dt&gt;&lt;a href=&quot;/ja/about/message.html&quot;&gt;タイトル&lt;/a&gt;&lt;/dt&gt;<br />            &lt;dd&gt;説明文説明文説明文説明文説明文説明文説明文&lt;/dd&gt;<br />          &lt;/dl&gt;<br />        &lt;/li&gt;<br />        &lt;li class=&quot;heightLine-hub1&quot;&gt;<br />          &lt;dl&gt;<br />            &lt;dt&gt;&lt;a href=&quot;/ja/about/message.html&quot;&gt;タイトル&lt;/a&gt;&lt;/dt&gt;<br />            &lt;dd&gt;説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文&lt;/dd&gt;<br />          &lt;/dl&gt;<br />        &lt;/li&gt;<br />        &lt;li class=&quot;heightLine-hub2&quot;&gt;<br />          &lt;dl&gt;<br />            &lt;dt&gt;&lt;a href=&quot;/ja/about/message.html&quot;&gt;タイトル&lt;/a&gt;&lt;/dt&gt;<br />            &lt;dd&gt;説明文説明文説明文説明文説明文説明文説明文&lt;/dd&gt;<br />          &lt;/dl&gt;<br />        &lt;/li&gt;<br />        &lt;li class=&quot;heightLine-hub2&quot;&gt;<br />          &lt;dl&gt;<br />            &lt;dt&gt;&lt;a href=&quot;/ja/about/message.html&quot;&gt;タイトル&lt;/a&gt;&lt;/dt&gt;<br />            &lt;dd&gt;説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文&lt;/dd&gt;<br />          &lt;/dl&gt;<br />        &lt;/li&gt;<br />      &lt;/ul&gt;</code></pre>
+          </div>
+          <!--module-->
+        </article>
+      </main>
+    </div>      
+    <!--contents-->
+    <!--#include virtual="/ja/include/footer.txt" -->
+  </body>
+</html>

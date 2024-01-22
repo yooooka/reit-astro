@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+---
+layout: "@layouts/LibraryLayout.astro"
+---
+
 <html class="no-js" lang="ja">
   <head>
     <!--#include virtual="/ja/include/analytics.txt" -->
@@ -356,11 +359,9 @@
             </p>
             <pre><code class="html">&lt;p class=&quot;responsive-img&quot;&gt;&lt;img src=&quot;http://placehold.jp/720x250.png&quot; /&gt;&lt;/p&gt;<br />&lt;p&gt;&lt;img src=&quot;http://placehold.jp/720x250.png&quot; class=&quot;responsive-img&quot; /&gt;&lt;/p&gt;</code></pre>
           </div>
-          >
           <!--module-->
         </article>
       </main>
-      <aside><!--#include virtual="/include/sn.txt" --></aside>
     </div>
     <!--contents-->
     <!--#include virtual="/ja/include/footer.txt" -->

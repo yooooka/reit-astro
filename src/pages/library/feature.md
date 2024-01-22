@@ -1,0 +1,364 @@
+---
+layout: "@layouts/LibraryLayout.astro"
+---
+
+<html class="no-js" lang="ja">
+
+<head>
+  <!--#include virtual="/ja/include/analytics.txt" -->
+  <meta charset="utf-8">
+  <title>モジュール一覧｜●●●リート投資法人</title>
+  <!--#include virtual="/ja/include/meta.txt" -->
+  <!--#include virtual="/ja/include/ogp.txt" -->
+  <link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon" />
+  <link rel="icon" href="/favicon.ico" type="image/vnd.microsoft.icon" />
+  <link rel="stylesheet" href="/css/reset.css" />
+  <link rel="stylesheet" href="/css/common.css" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/contents.css" />
+  <link rel="stylesheet" href="/css/print.css" media="print" />
+  <script src="/js/jquery.js"></script>
+  <script src="/js/jquery-ui.min.js"></script>
+  <script src="/js/modernizr.js"></script>
+  <script src="/js/jquery.slicknav.js"></script>
+  <script src="/js/function.js"></script>
+  <script src="/js/common.js"></script>
+  <!--[if lt IE 9]>
+<script src="/js/html5.js"></script>
+<![endif]-->
+  <!--module setting-->
+  <link rel="stylesheet" href="/css/module.css" />
+  <script src="/js/module.js"></script>
+  <link rel="stylesheet" href="/highlight/styles/tomorrow-night-eighties.css" />
+  <script src="/highlight/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad()</script>
+  <!--module setting end-->
+  <link rel="stylesheet" href="/css/feature.css" />
+  <script type="text/javascript" src="/js/heightLine.js"></script>
+</head>
+
+<body id="feature">
+  <!--#include virtual="/ja/include/header.txt" -->
+  <div class="topic-path">
+    <section>
+      <ol>
+        <li><a href="/">モジュール一覧</a></li>
+        <li>投資法人の特徴</li>
+      </ol>
+    </section>
+  </div>
+  <!--topic-path-->
+  <div class="contents">
+    <main>
+      <article>
+        <div class="title">
+          <p class="module__title">モジュール一覧 : 投資法人の特徴</p>
+        </div>
+        <!--title-->
+        <div class="module">
+          <p class="module__title">投資法人の特徴:基本設定</p>
+          <p>投資法人の特徴用のCSS</p>
+          <pre
+            class="clear-both"><code class="html">&lt;link rel=&quot;stylesheet&quot; href=&quot;"/css/feature.css&quot; /&gt;</code></pre>
+          <p>bodyに#featureを追加してグローバルナビゲーションをカレント表示に</p>
+          <pre><code class="html">&lt;body id=&quot;feature&quot;&gt;</code></pre>
+          <p class="module__title">投資法人の特徴用 スタイル</p>
+          <h2>テーブル</h2>
+          <table class="feature-table">
+            <tbody>
+              <tr>
+                <th scope="row">投資法人の特徴</th>
+                <td>
+                  <table class="indent-table">
+                    <tbody>
+                      <tr>
+                        <th scope="row"><em>■</em></th>
+                        <td>
+                          ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row"><em>■</em></th>
+                        <td>
+                          ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row"><em>■</em></th>
+                        <td>
+                          ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table class="indent-table txt-s">
+                    <tbody>
+                      <tr>
+                        <th scope="row">※</th>
+                        <td>
+                          ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">投資法人の特徴</th>
+                <td>
+                  <table class="indent-table">
+                    <tbody>
+                      <tr>
+                        <th scope="row"><em>■</em></th>
+                        <td>
+                          ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row"><em>■</em></th>
+                        <td>
+                          ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row"><em>■</em></th>
+                        <td>
+                          ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table class="indent-table txt-s">
+                    <tbody>
+                      <tr>
+                        <th scope="row">※</th>
+                        <td>
+                          ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">投資法人の特徴</th>
+                <td>
+                  <table class="indent-table">
+                    <tbody>
+                      <tr>
+                        <th scope="row"><em>■</em></th>
+                        <td>
+                          ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row"><em>■</em></th>
+                        <td>
+                          ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row"><em>■</em></th>
+                        <td>
+                          ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table class="indent-table txt-s">
+                    <tbody>
+                      <tr>
+                        <th scope="row">※</th>
+                        <td>
+                          ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <pre
+            class="clear-both"><code class="html">&lt;table class=&quot;feature-table&quot;&gt;<br />        &lt;tbody&gt;<br />          &lt;tr&gt;<br />            &lt;th scope=&quot;row&quot;&gt;投資法人の特徴&lt;/th&gt;<br />            &lt;td&gt;&lt;table class=&quot;indent-table&quot;&gt;<br />                &lt;tbody&gt;<br />                  &lt;tr&gt;<br />                    &lt;th scope=&quot;row&quot;&gt;&lt;em&gt;■&lt;/em&gt;&lt;/th&gt;<br />                    &lt;td&gt;ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ&lt;/td&gt;<br />                  &lt;/tr&gt;<br />                  &lt;tr&gt;<br />                    &lt;th scope=&quot;row&quot;&gt;&lt;em&gt;■&lt;/em&gt;&lt;/th&gt;<br />                    &lt;td&gt;ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ&lt;/td&gt;<br />                  &lt;/tr&gt;<br />                  &lt;tr&gt;<br />                    &lt;th scope=&quot;row&quot;&gt;&lt;em&gt;■&lt;/em&gt;&lt;/th&gt;<br />                    &lt;td&gt;ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ&lt;/td&gt;<br />                  &lt;/tr&gt;<br />                &lt;/tbody&gt;<br />              &lt;/table&gt;<br />              &lt;table class=&quot;indent-table txt-s&quot;&gt;<br />                &lt;tbody&gt;<br />                  &lt;tr&gt;<br />                    &lt;th scope=&quot;row&quot;&gt;※&lt;/th&gt;<br />                    &lt;td&gt;ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ&lt;/td&gt;<br />                  &lt;/tr&gt;<br />                &lt;/tbody&gt;<br />              &lt;/table&gt;&lt;/td&gt;<br />          &lt;/tr&gt;<br />          &lt;tr&gt;<br />            &lt;th scope=&quot;row&quot;&gt;投資法人の特徴&lt;/th&gt;<br />            &lt;td&gt;&lt;table class=&quot;indent-table&quot;&gt;<br />                &lt;tbody&gt;<br />                  &lt;tr&gt;<br />                    &lt;th scope=&quot;row&quot;&gt;&lt;em&gt;■&lt;/em&gt;&lt;/th&gt;<br />                    &lt;td&gt;ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ&lt;/td&gt;<br />                  &lt;/tr&gt;<br />                  &lt;tr&gt;<br />                    &lt;th scope=&quot;row&quot;&gt;&lt;em&gt;■&lt;/em&gt;&lt;/th&gt;<br />                    &lt;td&gt;ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ&lt;/td&gt;<br />                  &lt;/tr&gt;<br />                  &lt;tr&gt;<br />                    &lt;th scope=&quot;row&quot;&gt;&lt;em&gt;■&lt;/em&gt;&lt;/th&gt;<br />                    &lt;td&gt;ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ&lt;/td&gt;<br />                  &lt;/tr&gt;<br />                &lt;/tbody&gt;<br />              &lt;/table&gt;<br />              &lt;table class=&quot;indent-table txt-s&quot;&gt;<br />                &lt;tbody&gt;<br />                  &lt;tr&gt;<br />                    &lt;th scope=&quot;row&quot;&gt;※&lt;/th&gt;<br />                    &lt;td&gt;ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ&lt;/td&gt;<br />                  &lt;/tr&gt;<br />                &lt;/tbody&gt;<br />              &lt;/table&gt;&lt;/td&gt;<br />          &lt;/tr&gt;<br />          &lt;tr&gt;<br />            &lt;th scope=&quot;row&quot;&gt;投資法人の特徴&lt;/th&gt;<br />            &lt;td&gt;&lt;table class=&quot;indent-table&quot;&gt;<br />                &lt;tbody&gt;<br />                  &lt;tr&gt;<br />                    &lt;th scope=&quot;row&quot;&gt;&lt;em&gt;■&lt;/em&gt;&lt;/th&gt;<br />                    &lt;td&gt;ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ&lt;/td&gt;<br />                  &lt;/tr&gt;<br />                  &lt;tr&gt;<br />                    &lt;th scope=&quot;row&quot;&gt;&lt;em&gt;■&lt;/em&gt;&lt;/th&gt;<br />                    &lt;td&gt;ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ&lt;/td&gt;<br />                  &lt;/tr&gt;<br />                  &lt;tr&gt;<br />                    &lt;th scope=&quot;row&quot;&gt;&lt;em&gt;■&lt;/em&gt;&lt;/th&gt;<br />                    &lt;td&gt;ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ&lt;/td&gt;<br />                  &lt;/tr&gt;<br />                &lt;/tbody&gt;<br />              &lt;/table&gt;<br />              &lt;table class=&quot;indent-table txt-s&quot;&gt;<br />                &lt;tbody&gt;<br />                  &lt;tr&gt;<br />                    &lt;th scope=&quot;row&quot;&gt;※&lt;/th&gt;<br />                    &lt;td&gt;ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ&lt;/td&gt;<br />                  &lt;/tr&gt;<br />                &lt;/tbody&gt;<br />              &lt;/table&gt;&lt;/td&gt;<br />          &lt;/tr&gt;<br />        &lt;/tbody&gt;<br />      &lt;/table&gt;</code></pre>
+          <p class="module__title">不動産ポートフォリオ運営方針</p>
+          <ol class="feature-policy heightLineParent">
+            <li>
+              <dl>
+                <dt>STEP1</dt>
+                <dd>エリア毎に人口動態分析を実施し、またアセットタイプ毎に不動産マーケットの動向（売買市場及び賃貸市場の動向）を調査分析</dd>
+              </dl>
+            </li>
+            <li>
+              <dl>
+                <dt>STEP2</dt>
+                <dd>独自のマーケット分析を踏まえ、投資対象アセットタイプ毎及びエリア毎の投資スタンスを決定</dd>
+              </dl>
+            </li>
+            <li>
+              <dl>
+                <dt>STEP3</dt>
+                <dd>本資産運用会社は独自に、そしてスポンサーの情報網を活用し、投資対象を探索。取得に際し、多様な取得手法を検討。</dd>
+              </dl>
+            </li>
+            <li>
+              <dl>
+                <dt>STEP4</dt>
+                <dd>投資対象の不動産ポートフォリオへの寄与度及び取得後の不動産ポートフォリオのリスク耐性等を検証した後、適切な投資を実行</dd>
+              </dl>
+            </li>
+          </ol>
+          <pre
+            class="clear-both"><code class="html">&lt;script type=&quot;text/javascript&quot; src=&quot;/js/heightLine.js&quot;&gt;&lt;/script&gt;</code></pre>
+          <pre
+            class="clear-both"><code class="html">&lt;ol class=&quot;feature-policy heightLineParent&quot;&gt;<br />        &lt;li&gt;<br />          &lt;dl&gt;<br />            &lt;dt&gt;STEP1&lt;/dt&gt;<br />            &lt;dd&gt;エリア毎に人口動態分析を実施し、またアセットタイプ毎に不動産マーケットの動向（売買市場及び賃貸市場の動向）を調査分析&lt;/dd&gt;<br />          &lt;/dl&gt;<br />        &lt;/li&gt;<br />        &lt;li&gt;<br />          &lt;dl&gt;<br />            &lt;dt&gt;STEP2&lt;/dt&gt;<br />            &lt;dd&gt;独自のマーケット分析を踏まえ、投資対象アセットタイプ毎及びエリア毎の投資スタンスを決定&lt;/dd&gt;<br />          &lt;/dl&gt;<br />        &lt;/li&gt;<br />        &lt;li&gt;<br />          &lt;dl&gt;<br />            &lt;dt&gt;STEP3&lt;/dt&gt;<br />            &lt;dd&gt;本資産運用会社は独自に、そしてスポンサーの情報網を活用し、投資対象を探索。取得に際し、多様な取得手法を検討。&lt;/dd&gt;<br />          &lt;/dl&gt;<br />        &lt;/li&gt;<br />        &lt;li&gt;<br />          &lt;dl&gt;<br />            &lt;dt&gt;STEP4&lt;/dt&gt;<br />            &lt;dd&gt;投資対象の不動産ポートフォリオへの寄与度及び取得後の不動産ポートフォリオのリスク耐性等を検証した後、適切な投資を実行&lt;/dd&gt;<br />          &lt;/dl&gt;<br />        &lt;/li&gt;<br />      &lt;/ol&gt;</code></pre>
+          <p class="module__title">物件取得体制</p>
+          <p><img alt="" src="/img/ja/feature/system_img1.png" width="1200" height="540" alt="本投資法人の物件取得体制" /></p>
+          <div class="column-2-left system-a">
+            <p><strong>スペシャルシチュエーション投資を通じた取得</strong></p>
+            <h5>西新宿松屋ビル</h5>
+            <p><span class="img-right"><img alt="" src="http://placehold.jp/200x300.png" alt="西新宿松屋ビル" /></span>取得手法</p>
+            <ul>
+              <li>●2012年1月、処分期限が到来した不動産担保債権に付随する物件指図権を行使し、担保物件の所有権を取得</li>
+            </ul>
+            <p>取得物件の状況</p>
+            <ul>
+              <li>●渋谷区代々木に所在するオフィス</li>
+              <li>●甲州街道沿いに位置し、京王新線「初台」駅徒歩5分という立地</li>
+              <li>●1階にコンビニエンスストアが入居し、利便性に優れる</li>
+            </ul>
+            <p>取得後の運用</p>
+            <ul>
+              <li>
+                ●一時的に稼働率が49%、月額賃料坪単価が約9,500円にまで低下するも、共有部分のリノベーション工事の実行やコンビニエンスストアの誘致成功等により、稼働率は約88%、月額賃料坪単価が約12,800円まで改善
+              </li>
+            </ul>
+          </div>
+          <!--system-a-->
+          <div class="column-2-right system-b">
+            <p><strong>スペシャルシチュエーション投資を通じた取得</strong></p>
+            <h5>西新宿松屋ビル</h5>
+            <p><span class="img-right"><img alt="" src="http://placehold.jp/300x200.png" alt="西新宿松屋ビル" /></span>取得手法</p>
+            <ul>
+              <li>●2012年1月、処分期限が到来した不動産担保債権に付随する物件指図権を行使し、担保物件の所有権を取得</li>
+            </ul>
+            <p>取得物件の状況</p>
+            <ul>
+              <li>●渋谷区代々木に所在するオフィス</li>
+              <li>●甲州街道沿いに位置し、京王新線「初台」駅徒歩5分という立地</li>
+              <li>●1階にコンビニエンスストアが入居し、利便性に優れる</li>
+            </ul>
+            <p>取得後の運用</p>
+            <ul>
+              <li>
+                ●一時的に稼働率が49%、月額賃料坪単価が約9,500円にまで低下するも、共有部分のリノベーション工事の実行やコンビニエンスストアの誘致成功等により、稼働率は約88%、月額賃料坪単価が約12,800円まで改善
+              </li>
+            </ul>
+          </div>
+          <!--system-b-->
+          <pre
+            class="clear-both"><code class="html">&lt;p&gt;&lt;img src=&quot;/img/ja/feature/system_img1.png&quot; width=&quot;1200&quot; height=&quot;550&quot; alt=&quot;本投資法人の物件取得体制&quot;/&gt;&lt;/p&gt;<br />      &lt;div class=&quot;column-2-left system-a&quot;&gt;<br />        &lt;p&gt;&lt;strong&gt;スペシャルシチュエーション投資を通じた取得&lt;/strong&gt;&lt;/p&gt;<br />        &lt;h5&gt;西新宿松屋ビル&lt;/h5&gt;<br />        &lt;p&gt;&lt;span class=&quot;img-right&quot;&gt;&lt;img src=&quot;http://placehold.jp/200x300.png&quot; alt=&quot;西新宿松屋ビル&quot;/&gt;&lt;/span&gt;取得手法&lt;/p&gt;<br />        &lt;ul&gt;<br />          &lt;li&gt;●2012年1月、処分期限が到来した不動産担保債権に付随する物件指図権を行使し、担保物件の所有権を取得&lt;/li&gt;<br />        &lt;/ul&gt;<br />        &lt;p&gt;取得物件の状況&lt;/p&gt;<br />        &lt;ul&gt;<br />          &lt;li&gt;●渋谷区代々木に所在するオフィス&lt;/li&gt;<br />          &lt;li&gt;●甲州街道沿いに位置し、京王新線「初台」駅徒歩5分という立地&lt;/li&gt;<br />          &lt;li&gt;●1階にコンビニエンスストアが入居し、利便性に優れる&lt;/li&gt;<br />        &lt;/ul&gt;<br />        &lt;p&gt;取得後の運用&lt;/p&gt;<br />        &lt;ul&gt;<br />          &lt;li&gt;●一時的に稼働率が49%、月額賃料坪単価が約9,500円にまで低下するも、共有部分のリノベーション工事の実行やコンビニエンスストアの誘致成功等により、稼働率は約88%、月額賃料坪単価が約12,800円まで改善&lt;/li&gt;<br />        &lt;/ul&gt;<br />      &lt;/div&gt;<br />      &lt;!--system-a--&gt;<br />      &lt;div class=&quot;column-2-right system-b&quot;&gt;<br />        &lt;p&gt;&lt;strong&gt;スペシャルシチュエーション投資を通じた取得&lt;/strong&gt;&lt;/p&gt;<br />        &lt;h5&gt;西新宿松屋ビル&lt;/h5&gt;<br />        &lt;p&gt;&lt;span class=&quot;img-right&quot;&gt;&lt;img src=&quot;http://placehold.jp/300x200.png&quot; alt=&quot;西新宿松屋ビル&quot;/&gt;&lt;/span&gt;取得手法&lt;/p&gt;<br />        &lt;ul&gt;<br />          &lt;li&gt;●2012年1月、処分期限が到来した不動産担保債権に付随する物件指図権を行使し、担保物件の所有権を取得&lt;/li&gt;<br />        &lt;/ul&gt;<br />        &lt;p&gt;取得物件の状況&lt;/p&gt;<br />        &lt;ul&gt;<br />          &lt;li&gt;●渋谷区代々木に所在するオフィス&lt;/li&gt;<br />          &lt;li&gt;●甲州街道沿いに位置し、京王新線「初台」駅徒歩5分という立地&lt;/li&gt;<br />          &lt;li&gt;●1階にコンビニエンスストアが入居し、利便性に優れる&lt;/li&gt;<br />        &lt;/ul&gt;<br />        &lt;p&gt;取得後の運用&lt;/p&gt;<br />        &lt;ul&gt;<br />          &lt;li&gt;●一時的に稼働率が49%、月額賃料坪単価が約9,500円にまで低下するも、共有部分のリノベーション工事の実行やコンビニエンスストアの誘致成功等により、稼働率は約88%、月額賃料坪単価が約12,800円まで改善&lt;/li&gt;<br />        &lt;/ul&gt;<br />      &lt;/div&gt;<br />      &lt;!--system-b--&gt;</code></pre>
+          <h2 class="clear-both">投資主利益最大化のための戦略</p>
+            <p><img alt="" src="/img/ja/feature/strategy_img1.png" width="1200" height="330" alt="プロパティマネージャーとの健全な緊張関係" /></p>
+            <table class="strategy-table-a heightLine-strategy">
+              <thead>
+                <tr>
+                  <th colspan="2" scope="row">主要PM選定基準</th>
+                </tr>
+              </thead>
+              <tfoot>
+                <tr>
+                  <th colspan="2" scope="row">利害関係者の有無</th>
+                </tr>
+                <tr>
+                  <th colspan="2" scope="row">J-REITの委託実績との比較検討</th>
+                </tr>
+              </tfoot>
+              <tbody>
+                <tr>
+                  <th scope="row">企業内容</th>
+                  <td>設立時期、従業員数、支店・店舗数、管理棟数・戸数、信用評価、反社チェック等</td>
+                </tr>
+                <tr>
+                  <th scope="row">委託内容</th>
+                  <td>PMフィー料率、スターアジアグループとの取引実績等</td>
+                </tr>
+                <tr>
+                  <th scope="row">社内体制</th>
+                  <td>等法令遵守状況、情報管理体制、クレーム対応体制、利益相反対策</td>
+                </tr>
+                <tr>
+                  <th scope="row">パフォーマンスチェック<br /></th>
+                  <td>テナント対応能力・リレーション能力、リーシング能力、レポーティング能力、建物管理会社に対する管理能力</td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="strategy-table-b heightLine-strategy">
+              <thead>
+                <tr>
+                  <th colspan="2" scope="row">モニタリング評価の視点</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">テナント対応能力</th>
+                  <td>賃借人クレーム受付、債権延滞対応、入退去関連、賃貸人要望工事の策定・実施、賃料改定業務等</td>
+                </tr>
+                <tr>
+                  <th scope="row">リーシング能力／<br />
+                    実績</th>
+                  <td> 新規テナント募集、テナント候補者についての内容調査、賃貸ビル市場調査力、更新条件交渉業務</td>
+                </tr>
+                <tr>
+                  <th scope="row">レポーティング能力</th>
+                  <td> 定期報告書（月次・年次報告書等）期日の順守、正確性、年度計画の作成、マーケットデータの情報提供 等</td>
+                </tr>
+                <tr>
+                  <th scope="row">建物管理会社に<br />
+                    対する管理能力</th>
+                  <td> ビルメンテナンス会社の管理・監督、日常修理・修繕の決定発注、大規模修理・修繕に関する助言、建物メンテナンスの実施・報告、近隣所有者・住民との折衝・報告、関係官公庁との折衝</td>
+                </tr>
+              </tbody>
+            </table>
+            <pre
+              class="clear-both"><code class="html">&lt;script type=&quot;text/javascript&quot; src=&quot;/js/heightLine.js&quot;&gt;&lt;/script&gt;</code></pre>
+            <pre
+              class="clear-both"><code class="html">&lt;p&gt;&lt;img src=&quot;/img/ja/feature/strategy_img1.png&quot; width=&quot;1200&quot; height=&quot;330&quot; alt=&quot;プロパティマネージャーとの健全な緊張関係&quot;/&gt;&lt;/p&gt;<br />      &lt;table class=&quot;strategy-table-a heightLine-strategy&quot;&gt;<br />        &lt;thead&gt;<br />          &lt;tr&gt;<br />            &lt;th colspan=&quot;2&quot; scope=&quot;row&quot;&gt;主要PM選定基準&lt;/th&gt;<br />          &lt;/tr&gt;<br />        &lt;/thead&gt;<br />        &lt;tfoot&gt;<br />          &lt;tr&gt;<br />            &lt;th colspan=&quot;2&quot; scope=&quot;row&quot;&gt;利害関係者の有無&lt;/th&gt;<br />          &lt;/tr&gt;<br />          &lt;tr&gt;<br />            &lt;th colspan=&quot;2&quot; scope=&quot;row&quot;&gt;J-REITの委託実績との比較検討&lt;/th&gt;<br />          &lt;/tr&gt;<br />        &lt;/tfoot&gt;<br />        &lt;tbody&gt;<br />          &lt;tr&gt;<br />            &lt;th scope=&quot;row&quot;&gt;企業内容&lt;/th&gt;<br />            &lt;td&gt;設立時期、従業員数、支店・店舗数、管理棟数・戸数、信用評価、反社チェック等&lt;/td&gt;<br />          &lt;/tr&gt;<br />          &lt;tr&gt;<br />            &lt;th scope=&quot;row&quot;&gt;委託内容&lt;/th&gt;<br />            &lt;td&gt;PMフィー料率、スターアジアグループとの取引実績等&lt;/td&gt;<br />          &lt;/tr&gt;<br />          &lt;tr&gt;<br />            &lt;th scope=&quot;row&quot;&gt;社内体制&lt;/th&gt;<br />            &lt;td&gt;等法令遵守状況、情報管理体制、クレーム対応体制、利益相反対策&lt;/td&gt;<br />          &lt;/tr&gt;<br />          &lt;tr&gt;<br />            &lt;th scope=&quot;row&quot;&gt;パフォーマンスチェック&lt;br /&gt;&lt;/th&gt;<br />            &lt;td&gt;テナント対応能力・リレーション能力、リーシング能力、レポーティング能力、建物管理会社に対する管理能力&lt;/td&gt;<br />          &lt;/tr&gt;<br />        &lt;/tbody&gt;<br />      &lt;/table&gt;<br />      &lt;table class=&quot;strategy-table-b heightLine-strategy&quot;&gt;<br />        &lt;thead&gt;<br />          &lt;tr&gt;<br />            &lt;th colspan=&quot;2&quot; scope=&quot;row&quot;&gt;モニタリング評価の視点&lt;/th&gt;<br />          &lt;/tr&gt;<br />        &lt;/thead&gt;<br />        &lt;tbody&gt;<br />          &lt;tr&gt;<br />            &lt;th scope=&quot;row&quot;&gt;テナント対応能力&lt;/th&gt;<br />            &lt;td&gt;賃借人クレーム受付、債権延滞対応、入退去関連、賃貸人要望工事の策定・実施、賃料改定業務等&lt;/td&gt;<br />          &lt;/tr&gt;<br />          &lt;tr&gt;<br />            &lt;th scope=&quot;row&quot;&gt;リーシング能力／&lt;br /&gt;<br />            実績&lt;/th&gt;<br />            &lt;td&gt;              新規テナント募集、テナント候補者についての内容調査、賃貸ビル市場調査力、更新条件交渉業務&lt;/td&gt;<br />          &lt;/tr&gt;<br />          &lt;tr&gt;<br />            &lt;th scope=&quot;row&quot;&gt;レポーティング能力&lt;/th&gt;<br />            &lt;td&gt;              定期報告書（月次・年次報告書等）期日の順守、正確性、年度計画の作成、マーケットデータの情報提供 等&lt;/td&gt;<br />          &lt;/tr&gt;<br />          &lt;tr&gt;<br />            &lt;th scope=&quot;row&quot;&gt;建物管理会社に&lt;br /&gt;<br />対する管理能力&lt;/th&gt;<br />            &lt;td&gt;              ビルメンテナンス会社の管理・監督、日常修理・修繕の決定発注、大規模修理・修繕に関する助言、建物メンテナンスの実施・報告、近隣所有者・住民との折衝・報告、関係官公庁との折衝&lt;/td&gt;<br />          &lt;/tr&gt;<br />        &lt;/tbody&gt;<br />      &lt;/table&gt;</code></pre>
+            <p class="module__title">財務戦略</p>
+            <div class="feature-section-a">
+              <table class="indent-table">
+                <tbody>
+                  <tr>
+                    <th scope="row"><em>■</em></th>
+                    <td>
+                      ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><em>■</em></th>
+                    <td>
+                      ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><em>■</em></th>
+                    <td>
+                      ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <!--"feature-section-a-->
+            <pre
+              class="clear-both"><code class="html">&lt;div class=&quot;feature-section-a&quot;&gt;<br />        &lt;table class=&quot;indent-table&quot;&gt;<br />          &lt;tbody&gt;<br />            &lt;tr&gt;<br />              &lt;th scope=&quot;row&quot;&gt;&lt;em&gt;■&lt;/em&gt;&lt;/th&gt;<br />              &lt;td&gt;ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ&lt;/td&gt;<br />            &lt;/tr&gt;<br />            &lt;tr&gt;<br />              &lt;th scope=&quot;row&quot;&gt;&lt;em&gt;■&lt;/em&gt;&lt;/th&gt;<br />              &lt;td&gt;ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ&lt;/td&gt;<br />            &lt;/tr&gt;<br />            &lt;tr&gt;<br />              &lt;th scope=&quot;row&quot;&gt;&lt;em&gt;■&lt;/em&gt;&lt;/th&gt;<br />              &lt;td&gt;ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ&lt;/td&gt;<br />            &lt;/tr&gt;<br />          &lt;/tbody&gt;<br />        &lt;/table&gt;<br />      &lt;/div&gt;<br />      &lt;!--&quot;feature-section-a--&gt;</code></pre>
+        </div>
+        <!--module-->
+      </article>
+    </main>
+   </div>   
+  <!--contents-->
+  <!--#include virtual="/ja/include/footer.txt" -->
+</body>
+
+</html>
