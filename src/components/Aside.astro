@@ -2,13 +2,13 @@
 import snData from "./sn.json";
 ---
 
-<aside class="prose mx-auto">
-  <h2>Module Links</h2>
-  <ul>
+<aside class="prose max-w-none">
+  <h2 class="not-prose">Module Links</h2>
+  <ul class="not-prose">
     {
       snData.map((data) => (
         <li>
-          <a href={data.href}>{data.name}</a>
+          <a href={`${data.href}`}>{data.name}</a>
         </li>
       ))
     }

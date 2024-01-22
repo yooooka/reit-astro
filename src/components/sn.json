@@ -1,42 +1,42 @@
 [
   {
     "name": "基本スタイル",
-    "href": "library/basic"
+    "href": "basic"
   },
   {
     "name": "コンテンツスタイル",
-    "href": "library/contents"
+    "href": "contents"
   },
   {
     "name": "汎用スタイル",
-    "href": "library/style"
+    "href": "style"
   },
   {
     "name": "カラーコード",
-    "href": "library/color"
+    "href": "color"
   },
   {
     "name": "投資法人について",
-    "href": "library/about"
+    "href": "about"
   },
   {
     "name": "投資法人の特徴",
-    "href": "library/feature"
+    "href": "feature"
   },
   {
     "name": "不動産ポートフォリオ",
-    "href": "library/portfolio"
+    "href": "portfolio"
   },
   {
     "name": "財務情報",
-    "href": "library/finance"
+    "href": "finance"
   },
   {
     "name": "IR情報",
-    "href": "library/ir"
+    "href": "ir"
   },
   {
     "name": "その他",
-    "href": "library/other"
+    "href": "other"
   }
 ]

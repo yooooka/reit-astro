@@ -867,13 +867,13 @@ ul.header-link li a:before {
   text-align: left;
   overflow: hidden;
   padding: 40px 0 0;
-  padding: 240px 0 40px;
+  margin: 240px 0 40px;
   width: 1200px;
   margin: 0 auto;
 }
 @media screen and (max-width: 1200px) {
   .contents {
-    padding: 240px 0 0;
+    margin: 240px 0 0;
     width: auto;
     margin: 0 auto;
   }
@@ -1013,7 +1013,7 @@ ul.header-link li a:before {
 main {
   float: right;
   width: 950px;
-  margin: 0;
+  margin: 240px 3rem 3rem;
   padding: 50px 50px 30px;
   border-radius: 5px;
   background-color: rgb(255, 255, 255);
@@ -1026,7 +1026,7 @@ main section,
 @media screen and (max-width: 1200px) {
   main {
     width: auto;
-    margin: 0 10px;
+    margin: 240px 10px 10px;
     float: none;
     padding: 20px;
   }
@@ -1526,7 +1526,8 @@ img.responsive-img {
 
 =========================================================== */
 aside {
-  float: left;
+  float: right;
+  margin: 240px 3rem 3rem;
   width: 230px;
   padding: 15px;
   border-radius: 5px;
@@ -1538,7 +1539,7 @@ aside {
     display: none;
   }
 }
-aside h1 {
+aside h2 {
   background-color: #4d4070;
   padding: 35px 10px;
   font-size: 16px;

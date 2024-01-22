@@ -1,11 +1,6 @@
 ---
 import LibraryLayout from "@layouts/LibraryLayout.astro";
 import Aside from "@components/Aside.astro";
-// import { CollectionEntry } from "astro:content";
-// interface Props {
-//   html: CollectionEntry<"library">;
-// }
-
 export async function getStaticPaths() {
   const pages = [
     {
@@ -33,5 +28,5 @@ const { title } = Astro.props;
 
 <LibraryLayout>
   {title}
-  <Aside />
+  <slot />
 </LibraryLayout>

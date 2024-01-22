@@ -6,7 +6,9 @@
     "paths": {
       "@layouts/*": ["src/layouts/*"],
       "@components/*": ["src/components/*"],
-      "@library/*": ["src/pages/content/library/*"]
-    }
+      "@library/*": ["src/pages/library/*"]
+    },
+    "strictNullChecks": true,
+    "allowJs": true
   }
 }
