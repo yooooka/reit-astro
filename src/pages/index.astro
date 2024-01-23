@@ -1,14 +1,10 @@
 ---
-import Layout from "@layouts/Layout.astro";
-import Aside from "@components/Aside.astro";
+import LibraryLayout from "@layouts/LibraryLayout.astro";
+import Basic from "@library/basic.md";
 ---
 
-<Layout title="Welcome to 投資法人用ライブラリー with Astro">
-  <main class="prose mx-auto">
-    <h1>投資法人用ライブラリー</h1>
-    <p>むかしむかし大舘くんがつくったよ</p>
-    <Aside />
-  </main>
-</Layout>
+<LibraryLayout title="Welcome to 投資法人用ライブラリー with Astro!">
+  <Basic />
+</LibraryLayout>
 
 <style></style>
