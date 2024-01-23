@@ -1,6 +1,5 @@
 ---
 import LibraryLayout from "@layouts/LibraryLayout.astro";
-import Aside from "@components/Aside.astro";
 export async function getStaticPaths() {
   const pages = [
     {
@@ -28,5 +27,5 @@ const { title } = Astro.props;
 
 <LibraryLayout>
   {title}
-  <slot />
+  <slot><p>Fallback用</p></slot>
 </LibraryLayout>
